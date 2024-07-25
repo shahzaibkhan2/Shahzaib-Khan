@@ -37,9 +37,6 @@ const Footer = () => {
           <li>
             <a href="#">Facebook</a>
           </li>
-          <li>
-            <a href="#">Discord</a>
-          </li>
         </ul>
       </section>
     </footer>
