@@ -5,30 +5,39 @@ import { MainContext } from "../../context/MainContext";
 import Heading from "../header/Heading";
 
 const Contact = () => {
-  const { darkMode, slideUpBtn } = useContext(MainContext);
+  const { darkMode, slideUpBtn, sendEmail, formRef, messageSent } =
+    useContext(MainContext);
   return (
     <div id="my-contact" className="px-[12%] w-full py-10">
       <Heading id="contact" />
-      <form className="mx-auto max-w-2xl text-black">
+      <form
+        ref={formRef}
+        onSubmit={sendEmail}
+        className="mx-auto max-w-2xl text-black"
+      >
         <div className="grid grid-cols-auto gap-6 mb-8 mt-10 ">
           <input
+            name="name"
             type="text"
             placeholder="Enter Name"
             className="p-3 flex-1 border-[0.5px] outline-none bg-white rounded-md border-gray-400"
           />
           <input
+            name="email"
             type="email"
             placeholder="Enter Email"
             className="p-3 flex-1 border-[0.5px] outline-none bg-white rounded-md border-gray-400"
           />
         </div>
         <textarea
+          name="message"
           rows="7"
           placeholder="Type Your Message"
           className="outline-none p-4 w-full border-[0.5px] border-gray-400 mb-6 rounded-md bg-white resize-none"
         />
+        <span className="text-green-500 text-lg">{messageSent}</span>
         <div
-          className={`flex flex-col xs-md:flex-row gap-10 items-center justify-between ${
+          className={`flex mt-4 flex-col xs-md:flex-row gap-10 items-center justify-between ${
             slideUpBtn ? "animate-slideUp opacity-100" : "opacity-0"
           }`}
         >

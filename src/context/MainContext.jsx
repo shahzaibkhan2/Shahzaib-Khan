@@ -1,4 +1,6 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useEffect, useRef, useState } from "react";
+import { configFiles } from "../config/config";
+import emailjs from "@emailjs/browser";
 
 export const MainContext = createContext();
 
@@ -12,6 +14,38 @@ export const MainContextProvider = ({ children }) => {
   const [slideUpBtn, setSlideUpBtn] = useState(false);
   const [slideUpHigher, setSlideUpHigher] = useState(false);
   const [slideDiagonal, setSlideDiagonal] = useState(false);
+  const [messageSent, setMessageSent] = useState("");
+
+  // <------------------------------ References (useRef etc.) -------------------->
+
+  const formRef = useRef(null);
+
+  // <---------------------------- Methods and Functions -------------------->
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setMessageSent("Sending...");
+
+    emailjs
+      .sendForm(
+        configFiles.emailJsServiceKey,
+        configFiles.emailJsTemplateKey,
+        formRef.current,
+        {
+          publicKey: configFiles.emailJsPublicKey,
+        }
+      )
+      .then(
+        () => {
+          setMessageSent("Message sent !");
+          formRef.current.reset();
+        },
+        () => {
+          setMessageSent("Message not sent !");
+          formRef.current.reset();
+        }
+      );
+  };
 
   // <--------------------- Rendering Area (useEffects etc.)-------------------->
   useEffect(() => {
@@ -89,6 +123,9 @@ export const MainContextProvider = ({ children }) => {
     setSlideDiagonal,
     slideUpBtn,
     setSlideUpBtn,
+    sendEmail,
+    formRef,
+    messageSent,
   };
 
   return (
