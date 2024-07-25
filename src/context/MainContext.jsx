@@ -59,7 +59,7 @@ export const MainContextProvider = ({ children }) => {
     } else {
       setSlideDiagonal(false);
     }
-    if (window.scrollY > 3400) {
+    if (window.scrollY > 3350) {
       setSlideUpBtn(true);
     } else {
       setSlideUpBtn(false);
