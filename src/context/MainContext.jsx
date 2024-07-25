@@ -24,6 +24,21 @@ export const MainContextProvider = ({ children }) => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    const refValue = formRef.current.elements;
+    const selectedElem = Array.from(refValue).filter(
+      (elem) => elem.tagName === "INPUT" || elem.tagName === "TEXTAREA"
+    );
+    const isEmpty = selectedElem.some((val) => val.value.trim() === "");
+    const minLen = selectedElem.some((val) => val.value.length <= 3);
+    console.log(minLen);
+    console.log(isEmpty);
+    if (isEmpty) {
+      setMessageSent("All fields required");
+      return;
+    } else if (minLen) {
+      setMessageSent("Length is less than 4 characters");
+      return;
+    }
     setMessageSent("Sending...");
 
     emailjs
@@ -40,7 +55,8 @@ export const MainContextProvider = ({ children }) => {
           setMessageSent("Message sent !");
           formRef.current.reset();
         },
-        () => {
+        (err) => {
+          console.log("Error occured ! ", err);
           setMessageSent("Message not sent !");
           formRef.current.reset();
         }
