@@ -37,7 +37,7 @@ const Header = () => {
                 ? "bg-black  text-white hover:bg-white hover:text-black hover:border-gray-600"
                 : "bg-white text-black hover:bg-transparent hover:text-white hover:border-white"
             } rounded-full transition duration-300 border`}
-            href="./shahzaib_resume.pdf"
+            href="./shahzaib_resume_mern.pdf"
             download
           >
             My Resume
