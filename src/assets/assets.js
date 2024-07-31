@@ -25,6 +25,7 @@ import myLogoWhite from "./myLogoWhite.png";
 import myLogo from "./myLogo.png";
 import hcj from "./hcj.png";
 import socketIo from "./socket.png";
+import loader from "./load.png";
 import p1 from "./spotify-1.jpg";
 import p2 from "./home_eatnow.jpg";
 import p3 from "./myPortfolio1.jpg";
@@ -36,6 +37,7 @@ import p8 from "./businessTeam1.jpg";
 import p9 from "./ecommerceMarketingWebsite1.jpg";
 
 export const assets = {
+  loader,
   myLogoWhite,
   myLogo,
   whiteLogo,

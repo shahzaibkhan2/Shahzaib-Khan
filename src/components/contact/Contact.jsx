@@ -3,6 +3,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { useContext } from "react";
 import { MainContext } from "../../context/MainContext";
 import Heading from "../header/Heading";
+import { assets } from "../../assets/assets";
 
 const Contact = () => {
   const { darkMode, slideUpBtn, sendEmail, formRef, messageSent } =
@@ -46,7 +47,15 @@ const Contact = () => {
             className="py-3 px-10 bg-gradient-to-r from-[#283c86] to-[#45a247] rounded-full text-white flex gap-2 items-center hover:bg-gradient-to-l transition duration-300 text-lg group"
           >
             Send Now
-            <FaArrowUp className="w-5 h-5 group-hover:animate-bounce text-white" />
+            {messageSent === "Sending..." ? (
+              <img
+                src={assets.loader}
+                alt="loader"
+                className="w-6 h-6 animate-spin ml-1"
+              />
+            ) : (
+              <FaArrowUp className="w-5 h-5 group-hover:animate-bounce text-white" />
+            )}
           </button>
           <div className="flex gap-10 items-center">
             <div

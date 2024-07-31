@@ -30,8 +30,6 @@ export const MainContextProvider = ({ children }) => {
     );
     const isEmpty = selectedElem.some((val) => val.value.trim() === "");
     const minLen = selectedElem.some((val) => val.value.length <= 3);
-    console.log(minLen);
-    console.log(isEmpty);
     if (isEmpty) {
       setMessageSent("All fields required");
       return;
