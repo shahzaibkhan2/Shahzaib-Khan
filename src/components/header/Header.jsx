@@ -1,15 +1,15 @@
 import { assets } from "../../assets/assets";
-import { MdWavingHand } from "react-icons/md";
 import { FiDownload } from "react-icons/fi";
 import { useContext } from "react";
 import { MainContext } from "../../context/MainContext";
+import { PiMouseScrollLight } from "react-icons/pi";
 
 const Header = () => {
   const { darkMode } = useContext(MainContext);
   return (
     <header
       id="home"
-      className="w-11/12 max-w-3xl mx-auto text-center h-screen mt-7 flex items-center flex-col gap-4 justify-center"
+      className="w-11/12 max-w-3xl mx-auto text-center h-screen mt-7 flex items-center flex-col gap-4 justify-center relative"
     >
       <img
         src={assets.me}
@@ -17,6 +17,11 @@ const Header = () => {
         alt="myself"
       />
       <h3 className="flex gap-5 items-center mb-3 text-xl md:text-2xl animate-slideLeft">
+        <img
+          src={assets.wave}
+          alt="hello"
+          className="size-10 animate-spinBackForth"
+        />{" "}
         Hi ! I Am Shahzaib Khan
       </h3>
       <h1 className="text-3xl sm:text-6xl lg:text-[58px] animate-slideLeft">
@@ -45,6 +50,7 @@ const Header = () => {
           </a>
         </button>
       </div>
+      <PiMouseScrollLight className=" bottom-14 left-0 xs:left-10 sm:left-20 md:left-28 lg:left-40 fixed size-12 animate-pulse z-50" />
     </header>
   );
 };

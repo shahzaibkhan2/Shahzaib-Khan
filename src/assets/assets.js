@@ -26,6 +26,7 @@ import myLogo from "./myLogo.png";
 import hcj from "./hcj.png";
 import socketIo from "./socket.png";
 import loader from "./load.png";
+import wave from "./wave.png";
 import p1 from "./spotify-1.jpg";
 import p2 from "./home_eatnow.jpg";
 import p3 from "./myPortfolio1.jpg";
@@ -35,8 +36,10 @@ import p6 from "./geminiClone1.jpg";
 import p7 from "./dsa.jpg";
 import p8 from "./businessTeam1.jpg";
 import p9 from "./ecommerceMarketingWebsite1.jpg";
+import p10 from "./linkedinHome.jpg";
 
 export const assets = {
+  wave,
   loader,
   myLogoWhite,
   myLogo,
@@ -133,6 +136,13 @@ export const myServices = [
 ];
 
 export const myPortfolio = [
+  {
+    imgPath: p10,
+    title: "Developing",
+    description: "LinkedIn Clone",
+    linkToProject:
+      "https://github.com/shahzaibkhan2/Spotify-Clone-Full-Stack-Website.git",
+  },
   {
     imgPath: p1,
     title: "Full Stack Project",

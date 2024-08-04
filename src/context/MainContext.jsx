@@ -15,6 +15,7 @@ export const MainContextProvider = ({ children }) => {
   const [slideUpHigher, setSlideUpHigher] = useState(false);
   const [slideDiagonal, setSlideDiagonal] = useState(false);
   const [messageSent, setMessageSent] = useState("");
+  const [underline, setUnderline] = useState("home");
 
   // <------------------------------ References (useRef etc.) -------------------->
 
@@ -140,6 +141,8 @@ export const MainContextProvider = ({ children }) => {
     sendEmail,
     formRef,
     messageSent,
+    underline,
+    setUnderline,
   };
 
   return (

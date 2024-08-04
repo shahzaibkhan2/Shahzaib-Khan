@@ -8,8 +8,16 @@ import { useContext } from "react";
 import { MainContext } from "../../context/MainContext";
 
 const Navbar = () => {
-  const { setNavMenu, navMenu, setDarkMode, darkMode, bgFixed, setBgFixed } =
-    useContext(MainContext);
+  const {
+    setNavMenu,
+    navMenu,
+    setDarkMode,
+    darkMode,
+    bgFixed,
+    setBgFixed,
+    underline,
+    setUnderline,
+  } = useContext(MainContext);
 
   return (
     <nav
@@ -25,19 +33,47 @@ const Navbar = () => {
           darkMode && "bg-gradient-to-r from-custom-blue to-custom-green"
         }`}
       >
-        <li>
+        <li
+          onClick={() => setUnderline("home")}
+          className={`${
+            underline === "home" && "underline underline-offset-8 decoration-2"
+          }`}
+        >
           <a href="#home">Home</a>
         </li>
-        <li>
+        <li
+          onClick={() => setUnderline("about")}
+          className={`${
+            underline === "about" && "underline underline-offset-8 decoration-2"
+          }`}
+        >
           <a href="#about">About</a>
         </li>
-        <li>
+        <li
+          onClick={() => setUnderline("service")}
+          className={`${
+            underline === "service" &&
+            "underline underline-offset-8 decoration-2"
+          }`}
+        >
           <a href="#service">Services</a>
         </li>
-        <li>
+        <li
+          onClick={() => setUnderline("portfolio")}
+          className={`${
+            underline === "portfolio" &&
+            "underline underline-offset-8 decoration-2"
+          }`}
+        >
           <a href="#my-portfolio">Portfolio</a>
         </li>
-        <li>
+        <li
+          onClick={() => setUnderline("contact")}
+          className={`${
+            underline === "contact" &&
+            "underline underline-offset-8 decoration-2"
+          }`}
+        >
           <a href="#my-contact">Contact</a>
         </li>
       </ul>
@@ -60,27 +96,27 @@ const Navbar = () => {
               setBgFixed("bg-fixed");
               localStorage.setItem("theme", "light");
             }}
-            className={`w-7 h-7 cursor-pointer z-[999] ${
+            className={`size-7 lg:mr-0 cursor-pointer z-[999] ${
               navMenu && "text-white"
             }`}
           />
         )}
         <button
-          className={`hidden lg:flex gap-3 items-center py-2.5 px-10 rounded-full border ml-4 ${
+          className={`hidden very-lg:flex gap-3 items-center py-2.5 px-10 rounded-full border ml-4 ${
             darkMode
               ? "border-white hover:bg-white hover:text-black"
               : "border-gray-500 hover:bg-black hover:text-white transition duration-300"
           }`}
         >
           <a href="#my-contact">Contact</a>
-          <GoArrowUpRight className="w-5 h-5" />
+          <GoArrowUpRight className="size-5" />
         </button>
         <button
           onClick={() => setNavMenu(true)}
           className="block md:hidden ml-3"
         >
           <RiMenu4Fill
-            className={`w-8 h-8 ${navMenu ? "opacity-0" : "opacity-100"}`}
+            className={`size-8 ${navMenu ? "opacity-0" : "opacity-100"}`}
           />
         </button>
       </div>

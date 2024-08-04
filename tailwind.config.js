@@ -20,6 +20,7 @@ export default {
       screens: {
         xs: "355px",
         "xs-md": "530px",
+        "very-lg": "1100px",
       },
       animation: {
         slideLeft: "slideLeft 1.2s ease-in-out",
@@ -27,6 +28,7 @@ export default {
         slideDiagonal: "slideDiagonal 1.1s ease-out forwards",
         slideBottom: "slideBottom 1.1s ease-out forwards",
         slideUpHigher: "slideUpHigher 1.7s ease-out forwards",
+        spinBackForth: "spinBackForth 2s ease-in-out infinite",
       },
       keyframes: {
         slideLeft: {
@@ -54,6 +56,11 @@ export default {
             transform: "translate(0, 0)",
             opacity: "1",
           },
+        },
+        spinBackForth: {
+          "0%": { transform: "rotate(0deg)" },
+          "50%": { transform: "rotate(25deg)" },
+          "100%": { transform: "rotate(0deg)" },
         },
       },
     },
