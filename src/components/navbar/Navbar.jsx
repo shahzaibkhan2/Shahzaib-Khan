@@ -35,44 +35,51 @@ const Navbar = () => {
       >
         <li
           onClick={() => setUnderline("home")}
-          className={`${
-            underline === "home" && "underline underline-offset-8 decoration-2"
-          }`}
+          className={`${underline === "home" && "underline-effect"} ${
+            darkMode
+              ? "after:bg-white"
+              : "after:bg-gradient-to-tr after:from-custom-blue after:to-custom-green"
+          } relative`}
         >
           <a href="#home">Home</a>
         </li>
         <li
           onClick={() => setUnderline("about")}
-          className={`${
-            underline === "about" && "underline underline-offset-8 decoration-2"
-          }`}
+          className={`${underline === "about" && "underline-effect"} ${
+            darkMode
+              ? "after:bg-white"
+              : "after:bg-gradient-to-tr after:from-custom-blue after:to-custom-green"
+          } relative`}
         >
           <a href="#about">About</a>
         </li>
         <li
           onClick={() => setUnderline("service")}
-          className={`${
-            underline === "service" &&
-            "underline underline-offset-8 decoration-2"
-          }`}
+          className={`${underline === "service" && "underline-effect"} ${
+            darkMode
+              ? "after:bg-white"
+              : "after:bg-gradient-to-tr after:from-custom-blue after:to-custom-green"
+          } relative`}
         >
           <a href="#service">Services</a>
         </li>
         <li
           onClick={() => setUnderline("portfolio")}
-          className={`${
-            underline === "portfolio" &&
-            "underline underline-offset-8 decoration-2"
-          }`}
+          className={`${underline === "portfolio" && "underline-effect"} ${
+            darkMode
+              ? "after:bg-white"
+              : "after:bg-gradient-to-tr after:from-custom-blue after:to-custom-green"
+          } relative`}
         >
           <a href="#my-portfolio">Portfolio</a>
         </li>
         <li
           onClick={() => setUnderline("contact")}
-          className={`${
-            underline === "contact" &&
-            "underline underline-offset-8 decoration-2"
-          }`}
+          className={`${underline === "contact" && "underline-effect"} ${
+            darkMode
+              ? "after:bg-white"
+              : "after:bg-gradient-to-tr after:from-custom-blue after:to-custom-green"
+          } relative`}
         >
           <a href="#my-contact">Contact</a>
         </li>
