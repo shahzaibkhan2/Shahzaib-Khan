@@ -53,6 +53,10 @@ const AboutMe = () => {
               <li
                 key={index}
                 className={`flex justify-center items-center w-14 sm:w-16 border border-gray-400 aspect-square cursor-pointer rounded-lg bg-white ${
+                  darkMode
+                    ? "shadow-[0_0_15px_5px_rgba(59,130,246,0.5)]"
+                    : "shadow-[0_0_15px_5px_rgba(0,0,0,0.3)]"
+                } ${
                   slideUpHigher
                     ? "animate-slideUpHigher opacity-100"
                     : "opacity-0"
