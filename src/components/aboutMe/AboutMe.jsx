@@ -48,13 +48,11 @@ const AboutMe = () => {
             ))}
           </ul>
           <h4 className="my-6 text-xl">Technologies</h4>
-          <ul className="flex gap-3 sm:gap-5 items-center flex-wrap xs-md:flex-nowrap">
+          <ul className="flex gap-3 sm:gap-5 items-center flex-wrap xl:flex-nowrap">
             {techs.map((item, index) => (
               <li
                 key={index}
-                className={`flex justify-center items-center w-14 sm:w-16 border border-gray-400 aspect-square cursor-pointer rounded-lg ${
-                  darkMode ? "hover:bg-white" : "hover:bg-black"
-                } duration-500 p-1 -translate-y-2 ${
+                className={`flex justify-center items-center w-14 sm:w-16 border border-gray-400 aspect-square cursor-pointer rounded-lg bg-white ${
                   slideUpHigher
                     ? "animate-slideUpHigher opacity-100"
                     : "opacity-0"

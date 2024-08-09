@@ -27,6 +27,7 @@ import hcj from "./hcj.png";
 import socketIo from "./socket.png";
 import loader from "./load.png";
 import wave from "./wave.png";
+import nextjs from "./nextjs.svg";
 import p1 from "./spotify-1.jpg";
 import p2 from "./home_eatnow.jpg";
 import p3 from "./myPortfolio1.jpg";
@@ -84,6 +85,7 @@ export const techs = [
   expressJs,
   reactJs,
   nodeJs,
+  nextjs,
   tailwindCss,
   reduxToolkit,
   socketIo,
@@ -94,7 +96,7 @@ export const aboutMe = [
   {
     imgPath: programming,
     title: "Major",
-    description: "MERN Stack Tailwind CSS Redux Toolkit",
+    description: "MERN Stack NEXT.js Tailwind CSS Redux Toolkit",
   },
   {
     imgPath: education,
@@ -104,7 +106,7 @@ export const aboutMe = [
   {
     imgPath: projects,
     title: "Projects",
-    description: "Over 50 Projects Developed End to End",
+    description: "Over 52 Projects Developed End to End",
   },
 ];
 
