@@ -20,6 +20,7 @@ export default {
       screens: {
         xs: "355px",
         "xs-md": "530px",
+        "xs-sm": "506px",
         "very-lg": "1100px",
       },
       animation: {

@@ -38,6 +38,7 @@ import p7 from "./dsa.jpg";
 import p8 from "./businessTeam1.jpg";
 import p9 from "./ecommerceMarketingWebsite1.jpg";
 import p10 from "./linkedinHome.jpg";
+import p11 from "./coding.jpg";
 
 export const assets = {
   wave,
@@ -139,11 +140,16 @@ export const myServices = [
 
 export const myPortfolio = [
   {
+    imgPath: p11,
+    title: "Developing",
+    description: "Instagram Clone",
+    linkToProject: "",
+  },
+  {
     imgPath: p10,
     title: "Developing",
     description: "LinkedIn Clone",
-    linkToProject:
-      "https://github.com/shahzaibkhan2/Spotify-Clone-Full-Stack-Website.git",
+    linkToProject: "https://linkedin-clone-mern.vercel.app",
   },
   {
     imgPath: p1,

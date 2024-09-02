@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header
       id="home"
-      className="w-11/12 max-w-3xl mx-auto text-center h-screen mt-7 flex items-center flex-col gap-4 justify-center relative"
+      className="pt-40 xs-sm:pt-0 w-11/12 max-w-3xl mx-auto text-center h-screen mt-7 flex items-center flex-col gap-4 justify-center relative"
     >
       <img
         src={assets.me}
@@ -25,11 +25,15 @@ const Header = () => {
         Hi ! I Am Shahzaib Khan
       </h3>
       <h1 className="text-3xl sm:text-6xl lg:text-[58px] animate-slideLeft">
-        Full Stack (MERN) Developer & Engineer
+        Full Stack (MERN & NEXT.js) Developer & Engineer
       </h1>
-      <p className="max-w-2xl mx-auto animate-slideLeft">
-        I am a MERN Stack developer with over 6 years of practical experience
-        building amazing projects and a fiverr freelancer.
+      <p className="max-w-2xl mx-auto animate-slideLeft leading-7">
+        I am an independent and self-motivated MERN Stack developer with over
+        six years of hands-on experience, specializing in Next.js. Driven by
+        dedication and a strong problem-solving mindset, I have a proven track
+        record in building robust and scalable applications. As a freelancer, I
+        am adept at managing diverse projects and delivering high-quality
+        solutions.
       </p>
       <div className="flex flex-col items-center mt-4 gap-4 sm:flex-row">
         <button className="py-3 px-10 bg-gradient-to-r from-[#283c86] to-[#45a247] rounded-full text-white flex gap-2 items-center hover:bg-gradient-to-l transition duration-300 animate-slideBottom">
