@@ -29,11 +29,9 @@ const Header = () => {
       </h1>
       <p className="max-w-2xl mx-auto animate-slideLeft leading-7">
         I am an independent and self-motivated MERN Stack developer with over
-        six years of hands-on experience, specializing in Next.js. Driven by
-        dedication and a strong problem-solving mindset, I have a proven track
-        record in building robust and scalable applications. As a freelancer, I
-        am adept at managing diverse projects and delivering high-quality
-        solutions.
+        six years of hands-on experience, specializing in Next.js. As a
+        freelancer, I am adept at managing diverse projects and delivering
+        high-quality solutions.
       </p>
       <div className="flex flex-col items-center mt-4 gap-4 sm:flex-row">
         <button className="py-3 px-10 bg-gradient-to-r from-[#283c86] to-[#45a247] rounded-full text-white flex gap-2 items-center hover:bg-gradient-to-l transition duration-300 animate-slideBottom">
