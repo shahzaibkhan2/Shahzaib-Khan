@@ -7,7 +7,7 @@ import Heading from "../header/Heading";
 const MyServices = () => {
   const { darkMode, slideDiagonal } = useContext(MainContext);
   return (
-    <main id="service" className="w-full py-10 px-[12%]">
+    <main id="service" className="w-full xs-sm:py-10 px-[12%]">
       <Heading id="services" />
       <div className="grid gap-6 my-10 grid-cols-auto">
         {myServices.map((item, index) => (

@@ -5,7 +5,7 @@ import { MainContext } from "../../context/MainContext";
 const AboutMe = () => {
   const { darkMode, slideUp, slideUpHigher } = useContext(MainContext);
   return (
-    <main id="about" className={`py-40 w-full xs-sm:py-10 px-[12%]`}>
+    <main id="about" className={`pt-40 w-full xs-sm:pt-10 px-[12%]`}>
       <h4 className="mb-2 text-sm sm:text-lg text-center">Introduction</h4>
       <h3 className="text-4xl sm:text-6xl lg:text-[58px] text-center">
         About Me
