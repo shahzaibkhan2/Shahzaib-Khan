@@ -38,7 +38,7 @@ const Contact = () => {
         />
         <span className="text-green-500 text-lg">{messageSent}</span>
         <div
-          className={`flex mt-4 flex-col xs-md:flex-row gap-10 items-center justify-between ${
+          className={`flex mt-4 flex-col xs-l:flex-row gap-10 items-center justify-between ${
             slideUpBtn ? "animate-slideUp opacity-100" : "opacity-0"
           }`}
         >
