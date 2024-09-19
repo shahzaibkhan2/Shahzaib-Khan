@@ -140,18 +140,21 @@ export const myServices = [
 
 export const myPortfolio = [
   {
+    id: 0,
     imgPath: p11,
     title: "Developing",
     description: "Instagram Clone",
     linkToProject: "",
   },
   {
+    id: 1,
     imgPath: p10,
     title: "Developing",
     description: "LinkedIn Clone",
     linkToProject: "https://linkedin-clone-mern.vercel.app",
   },
   {
+    id: 2,
     imgPath: p1,
     title: "Full Stack Project",
     description: "Spotify Clone",
@@ -159,6 +162,7 @@ export const myPortfolio = [
       "https://github.com/shahzaibkhan2/Spotify-Clone-Full-Stack-Website.git",
   },
   {
+    id: 3,
     imgPath: p2,
     title: "Full Stack Project",
     description: "Food Delivery",
@@ -166,30 +170,35 @@ export const myPortfolio = [
       "https://github.com/shahzaibkhan2/Full-Stack-Food-Delivery-Website--MERN-.git",
   },
   {
+    id: 4,
     imgPath: p3,
     title: "Frontend Project",
     description: "Portfolio",
     linkToProject: "https://shahzaib-khan-portfolio.vercel.app",
   },
   {
+    id: 5,
     imgPath: p4,
     title: "Frontend Project",
     description: "Crypto Price",
     linkToProject: "https://crypto-price-app-shahzaib.vercel.app",
   },
   {
+    id: 6,
     imgPath: p5,
     title: "Frontend Project",
     description: "YouTube Clone",
     linkToProject: "https://shahzaib-you-tube-clone.vercel.app",
   },
   {
+    id: 7,
     imgPath: p6,
     title: "Frontend Project",
     description: "Gemini Clone",
     linkToProject: "https://shahzaib-gemini-clone.vercel.app",
   },
   {
+    id: 8,
     imgPath: p7,
     title: "DSA Questions",
     description: "DSA JavaScript",
@@ -197,12 +206,14 @@ export const myPortfolio = [
       "https://github.com/shahzaibkhan2/DSA-JavaScript-Interview-Solved-Questions.git",
   },
   {
+    id: 9,
     imgPath: p8,
     title: "Frontend Project",
     description: "Business",
     linkToProject: "https://business-team-website.vercel.app",
   },
   {
+    id: 10,
     imgPath: p9,
     title: "Frontend Project",
     description: "Ecommerce",

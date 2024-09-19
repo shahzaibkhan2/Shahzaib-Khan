@@ -11,10 +11,10 @@ const AboutMe = () => {
         About Me
       </h3>
       <div className="flex flex-col w-full lg:flex-row items-center my-20 gap-20">
-        <div className="relative mx-auto max-w-max">
+        <div className="relative mx-auto max-w-max h-[500px] hidden xl:block">
           <img
             src={assets.about}
-            className="w-64 rounded-3xl max-w-none sm:w-80"
+            className="w-64 h-[500px] rounded-3xl max-w-none sm:w-80"
             alt="me"
           />
         </div>
@@ -48,7 +48,7 @@ const AboutMe = () => {
             ))}
           </ul>
           <h4 className="my-6 text-xl">Technologies</h4>
-          <ul className="flex gap-3 sm:gap-5 items-center flex-wrap xl:flex-nowrap">
+          <ul className="flex gap-3 sm:gap-5 items-center flex-wrap 2xl:flex-nowrap">
             {techs.map((item, index) => (
               <li
                 key={index}

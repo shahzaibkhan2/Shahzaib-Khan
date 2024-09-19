@@ -6,7 +6,7 @@ import { MainContext } from "../../context/MainContext";
 import Heading from "../header/Heading";
 
 const MyPortfolio = () => {
-  const { darkMode } = useContext(MainContext);
+  const { darkMode, portfolioSeeMoreHandler } = useContext(MainContext);
   return (
     <main id="my-portfolio" className="block w-full py-10 px-[12%]">
       <Heading id="portfolio" />

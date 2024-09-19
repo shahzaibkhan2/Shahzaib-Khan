@@ -1,6 +1,7 @@
 import { createContext, useEffect, useRef, useState } from "react";
 import { configFiles } from "../config/config";
 import emailjs from "@emailjs/browser";
+import { myPortfolio } from "../assets/assets";
 
 export const MainContext = createContext();
 
@@ -16,7 +17,6 @@ export const MainContextProvider = ({ children }) => {
   const [slideDiagonal, setSlideDiagonal] = useState(false);
   const [messageSent, setMessageSent] = useState("");
   const [underline, setUnderline] = useState("home");
-
   // <------------------------------ References (useRef etc.) -------------------->
 
   const formRef = useRef(null);
