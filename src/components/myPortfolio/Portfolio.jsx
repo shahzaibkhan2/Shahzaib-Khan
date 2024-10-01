@@ -5,7 +5,11 @@ import { MainContext } from "../../context/MainContext";
 const Portfolio = ({ image, title, description, projectLink, stack }) => {
   const { darkMode } = useContext(MainContext);
   return (
-    <div className="block rounded-lg bg-white shadow-secondary-1 dark:bg-surface-dark">
+    <article
+      className={`block rounded-lg bg-white ${
+        darkMode ? "shadow-md shadow-gray-600" : "shadow-lg shadow-gray-300"
+      } dark:bg-surface-dark`}
+    >
       <div
         className="relative overflow-hidden bg-cover bg-no-repeat"
         data-twe-ripple-init
@@ -42,7 +46,7 @@ const Portfolio = ({ image, title, description, projectLink, stack }) => {
           </div>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 
