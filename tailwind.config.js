@@ -10,7 +10,6 @@ export default {
         "custom-gradient-bg-from": "#000000",
         "custom-gradient-bg-to": "#130F40",
       },
-
       gridTemplateColumns: {
         auto: "repeat(auto-fit, minmax(200px, 1fr))",
       },
@@ -34,20 +33,44 @@ export default {
       },
       keyframes: {
         slideLeft: {
-          "0%": { opacity: 0, transform: "translateX(-100%)" },
-          "100%": { opacity: 1, transform: "translateX(0)" },
+          "0%": {
+            opacity: "0",
+            transform: "translateX(-100%)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
         },
         slideBottom: {
-          "0%": { opacity: 0, transform: "translateY(200%)" },
-          "100%": { opacity: 1, transform: "translateY(0)" },
+          "0%": {
+            opacity: "0",
+            transform: "translateY(200%)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
         },
         slideUp: {
-          "0%": { transform: "translateY(200%)", opacity: "0" },
-          "100%": { transform: "translateY(0)", opacity: "1" },
+          "0%": {
+            transform: "translateY(200%)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateY(0)",
+            opacity: "1",
+          },
         },
         slideUpHigher: {
-          "0%": { transform: "translateY(200%)", opacity: "0" },
-          "100%": { transform: "translateY(0)", opacity: "1" },
+          "0%": {
+            transform: "translateY(200%)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateY(0)",
+            opacity: "1",
+          },
         },
         slideDiagonal: {
           "0%": {
@@ -60,13 +83,24 @@ export default {
           },
         },
         spinBackForth: {
-          "0%": { transform: "rotate(0deg)" },
-          "50%": { transform: "rotate(25deg)" },
-          "100%": { transform: "rotate(0deg)" },
+          "0%": {
+            transform: "rotate(0deg)",
+          },
+          "50%": {
+            transform: "rotate(25deg)",
+          },
+          "100%": {
+            transform: "rotate(0deg)",
+          },
         },
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
       },
     },
   },
-  plugins: [],
-  darkMode: "selector",
+  plugins: [require("tailwindcss-animate")],
+  darkMode: ["selector", "class"],
 };

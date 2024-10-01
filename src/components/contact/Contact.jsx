@@ -21,20 +21,20 @@ const Contact = () => {
             name="name"
             type="text"
             placeholder="Enter Name"
-            className="p-3 flex-1 border-[0.5px] outline-none bg-white rounded-md border-gray-400"
+            className="p-3 flex-1 border-[0.5px] outline-none bg-white rounded-full border-gray-400"
           />
           <input
             name="email"
             type="email"
             placeholder="Enter Email"
-            className="p-3 flex-1 border-[0.5px] outline-none bg-white rounded-md border-gray-400"
+            className="p-3 flex-1 border-[0.5px] outline-none bg-white rounded-full border-gray-400"
           />
         </div>
         <textarea
           name="message"
           rows="7"
           placeholder="Type Your Message"
-          className="outline-none p-4 w-full border-[0.5px] border-gray-400 mb-6 rounded-md bg-white resize-none"
+          className="outline-none p-4 w-full border-[0.5px] border-gray-400 mb-6 rounded-3xl bg-white resize-none"
         />
         <span className="text-green-500 text-lg">{messageSent}</span>
         <div

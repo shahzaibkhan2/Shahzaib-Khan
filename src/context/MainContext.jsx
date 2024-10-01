@@ -1,7 +1,6 @@
 import { createContext, useEffect, useRef, useState } from "react";
 import { configFiles } from "../config/config";
 import emailjs from "@emailjs/browser";
-import { myPortfolio } from "../assets/assets";
 
 export const MainContext = createContext();
 

@@ -32,3 +32,9 @@ body {
   @apply bg-[#f0eaea];
   background-color: rgb(10, 10, 33);
 }
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
