@@ -143,7 +143,8 @@ export const myPortfolio = [
     id: 0,
     imgPath: p11,
     title: "Instagram Clone Website",
-    description: "Instagram Clone",
+    description:
+      "This is a full stack Instagram Clone website developed same as the Instagram which includes real time chat, likes, comments, add or remove friends, post, remove post and much more.",
     linkToProject: "",
     stack: "Full Stack",
   },
@@ -151,7 +152,8 @@ export const myPortfolio = [
     id: 1,
     imgPath: p10,
     title: "LinkedIn Clone Website",
-    description: "LinkedIn Clone",
+    description:
+      "This is a full stack LinkedIn Clone website developed same as the LinkedIn which includes real time chat, likes, comments, add or remove friends, post, remove post and much more.",
     linkToProject: "https://linkedin-clone-mern.vercel.app",
     stack: "Full Stack",
   },
@@ -159,7 +161,8 @@ export const myPortfolio = [
     id: 2,
     imgPath: p1,
     title: "Spotify Clone Website",
-    description: "Spotify Clone",
+    description:
+      "This is a full stack Spotify Clone website developed same as the Spotify in which you listen songs, search, add, remove, an admin panel and much more.",
     linkToProject:
       "https://github.com/shahzaibkhan2/Spotify-Clone-Full-Stack-Website.git",
     stack: "Full Stack",
@@ -168,7 +171,8 @@ export const myPortfolio = [
     id: 3,
     imgPath: p2,
     title: "Food Delivery Website",
-    description: "Food Delivery",
+    description:
+      "This is a full stack food delivery website which enables you to order food, payment, admin panel and with the various food varieties.",
     linkToProject:
       "https://github.com/shahzaibkhan2/Full-Stack-Food-Delivery-Website--MERN-.git",
     stack: "Full Stack",
@@ -177,7 +181,8 @@ export const myPortfolio = [
     id: 4,
     imgPath: p3,
     title: "Personal Portfolio Website",
-    description: "Portfolio",
+    description:
+      "I Built a fully functional, responsive and beautiful Personal Portfolio Website using JavaScript, HTML and CSS, Git and Github, Redux Toolkit and ECMAScript on ReactJs.",
     linkToProject: "https://shahzaib-khan-portfolio.vercel.app",
     stack: "Frontend",
   },
@@ -185,7 +190,8 @@ export const myPortfolio = [
     id: 5,
     imgPath: p4,
     title: "Crypto Price App",
-    description: "Crypto Price",
+    description:
+      "The Crypto Price App which gives you the real time Crypto prices. I fetched the Gecko API using advanced JavaScript async await methods and ECMA Script methods.",
     linkToProject: "https://crypto-price-app-shahzaib.vercel.app",
     stack: "Frontend",
   },
@@ -193,7 +199,8 @@ export const myPortfolio = [
     id: 6,
     imgPath: p5,
     title: "Youtube Clone Website",
-    description: "YouTube Clone",
+    description:
+      "This is a YouTube Clone website developed same as Youtube. I fetched the YouTube API using advanced JavaScript async await methods and ECMA Script methods.",
     linkToProject: "https://shahzaib-you-tube-clone.vercel.app",
     stack: "Frontend",
   },
@@ -201,7 +208,8 @@ export const myPortfolio = [
     id: 7,
     imgPath: p6,
     title: "Gemini Clone Website",
-    description: "Gemini Clone",
+    description:
+      "This is a Google Gemini Clone Website through which you can feel the real Gemini experience. I fetched the Google Gemini API using advanced JavaScript async await methods.",
     linkToProject: "https://shahzaib-gemini-clone.vercel.app",
     stack: "Frontend",
   },
@@ -209,7 +217,8 @@ export const myPortfolio = [
     id: 8,
     imgPath: p7,
     title: "DSA Questions",
-    description: "DSA JavaScript",
+    description:
+      "Want to practice DSA with JavaScript? You can practice JavaScript Data Structures and Algorithms Interview Questions with Answers here.",
     linkToProject:
       "https://github.com/shahzaibkhan2/DSA-JavaScript-Interview-Solved-Questions.git",
     stack: "DSA JavaScript",
@@ -218,7 +227,8 @@ export const myPortfolio = [
     id: 9,
     imgPath: p8,
     title: "Business Team Website",
-    description: "Business",
+    description:
+      "I Built a fully functional, responsive and beautiful Website using JavaScript, HTML and Tailwind CSS on React.js. It is a modern website for business team.",
     linkToProject: "https://business-team-website.vercel.app",
     stack: "Frontend",
   },
@@ -226,7 +236,8 @@ export const myPortfolio = [
     id: 10,
     imgPath: p9,
     title: "Ecommerce Website",
-    description: "Ecommerce",
+    description:
+      "Built a fully functional, responsive and beautiful Ecommerce Website using JavaScript, HTML and CSS. This is a Pure HTML, CSS and JavaScript website.",
     linkToProject:
       "https://shahzaibkhan2.github.io/Marketing-Website/index.html",
     stack: "Frontend",

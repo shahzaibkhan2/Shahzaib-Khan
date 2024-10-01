@@ -23,10 +23,7 @@ const Portfolio = ({ image, title, description, projectLink, stack }) => {
           </h5>
           <h6 className="text-gray-500">{stack}</h6>
         </div>
-        <p className="mb-4 text-base text-black">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
+        <p className="mb-4 text-base text-black">{description}</p>
         <div className="flex justify-between">
           <a
             href={projectLink}
