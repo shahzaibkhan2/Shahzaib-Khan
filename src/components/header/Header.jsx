@@ -3,6 +3,7 @@ import { FiDownload } from "react-icons/fi";
 import { useContext } from "react";
 import { MainContext } from "../../context/MainContext";
 import { PiMouseScrollLight } from "react-icons/pi";
+import { FaLinkedin } from "react-icons/fa6";
 
 const Header = () => {
   const { darkMode } = useContext(MainContext);
@@ -35,7 +36,10 @@ const Header = () => {
       </p>
       <div className="flex flex-col items-center mt-4 gap-4 sm:flex-row">
         <button className="py-3 px-10 bg-gradient-to-r from-[#283c86] to-[#45a247] rounded-full text-white flex gap-2 items-center hover:bg-gradient-to-l transition duration-300 animate-slideBottom">
-          <a href="#my-contact">Contact Me</a>
+          <a href="#my-contact" className="flex justify-center gap-2">
+            <FaLinkedin size={18} />
+            Contact Me
+          </a>
         </button>
         <button className="animate-slideBottom">
           <a
