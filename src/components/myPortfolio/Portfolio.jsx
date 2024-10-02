@@ -22,10 +22,10 @@ const Portfolio = ({ image, title, description, projectLink, stack }) => {
       </div>
       <div className="p-6 text-surface dark:text-white">
         <div className="flex justify-between items-center">
-          <h5 className="mb-2 text-xl font-medium leading-tight text-black">
+          <h5 className="mb-2 text-xl font-medium leading-tight text-black mr-2">
             {title}
           </h5>
-          <h6 className="text-gray-500">{stack}</h6>
+          <h6 className="text-gray-500 text-nowrap">{stack}</h6>
         </div>
         <p className="mb-4 text-base text-black">{description}</p>
         <div className="flex justify-between">

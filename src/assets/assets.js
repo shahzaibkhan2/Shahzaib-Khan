@@ -38,7 +38,7 @@ import p7 from "./dsa.jpg";
 import p8 from "./businessTeam1.jpg";
 import p9 from "./ecommerceMarketingWebsite1.jpg";
 import p10 from "./linkedinHome.jpg";
-import p11 from "./coding.jpg";
+import p11 from "./instagramOne.jpg";
 
 export const assets = {
   wave,
@@ -145,7 +145,8 @@ export const myPortfolio = [
     title: "Instagram Clone Website",
     description:
       "This is a full stack Instagram Clone website developed same as the Instagram which includes real time chat, likes, comments, add or remove friends, post, remove post and much more.",
-    linkToProject: "",
+    linkToProject:
+      "https://github.com/shahzaibkhan2/Full-Stack-Instagram-Clone",
     stack: "Full Stack",
   },
   {
