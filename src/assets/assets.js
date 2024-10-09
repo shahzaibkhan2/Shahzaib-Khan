@@ -273,7 +273,7 @@ export const miniMyPortfolio = [
     imgPath: p10,
     title: "LinkedIn Clone Website",
     description:
-      "This is a full stack LinkedIn Clone website developed same as the LinkedIn which includes real time chat, likes, comments, add or remove friends, post, remove post and much more.",
+      "This is a full stack LinkedIn Clone website developed same as the LinkedIn which includes real time chat, likes, comments, add or remove friends, post, remove post, edit profile and much more.",
     linkToProject: "https://linkedin-clone-mern.vercel.app",
     stack: "Full Stack",
     projectStatus: true,
@@ -283,7 +283,7 @@ export const miniMyPortfolio = [
     imgPath: p1,
     title: "Spotify Clone Website",
     description:
-      "This is a full stack Spotify Clone website developed same as the Spotify in which you listen songs, search, add, remove, an admin panel and much more.",
+      "This is a full stack Spotify Clone website developed same as the Spotify in which you listen songs, search, add, remove, an admin panel and much more. Find more about this project by visiting my Github ID.",
     linkToProject:
       "https://github.com/shahzaibkhan2/Spotify-Clone-Full-Stack-Website.git",
     stack: "Full Stack",
@@ -294,7 +294,7 @@ export const miniMyPortfolio = [
     imgPath: p2,
     title: "Food Delivery Website",
     description:
-      "This is a full stack food delivery website which enables you to order food, payment, admin panel and with the various food varieties.",
+      "This is a full stack food delivery website which enables you to order food, payment, admin panel and with the various food varieties. Find more by visiting my Github ID.",
     linkToProject:
       "https://github.com/shahzaibkhan2/Full-Stack-Food-Delivery-Website--MERN-.git",
     stack: "Full Stack",
