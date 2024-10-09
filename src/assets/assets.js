@@ -148,6 +148,7 @@ export const myPortfolio = [
     linkToProject:
       "https://github.com/shahzaibkhan2/Full-Stack-Instagram-Clone",
     stack: "Full Stack",
+    projectStatus: true,
   },
   {
     id: 1,
@@ -157,6 +158,7 @@ export const myPortfolio = [
       "This is a full stack LinkedIn Clone website developed same as the LinkedIn which includes real time chat, likes, comments, add or remove friends, post, remove post and much more.",
     linkToProject: "https://linkedin-clone-mern.vercel.app",
     stack: "Full Stack",
+    projectStatus: true,
   },
   {
     id: 2,
@@ -167,6 +169,7 @@ export const myPortfolio = [
     linkToProject:
       "https://github.com/shahzaibkhan2/Spotify-Clone-Full-Stack-Website.git",
     stack: "Full Stack",
+    projectStatus: false,
   },
   {
     id: 3,
@@ -177,6 +180,7 @@ export const myPortfolio = [
     linkToProject:
       "https://github.com/shahzaibkhan2/Full-Stack-Food-Delivery-Website--MERN-.git",
     stack: "Full Stack",
+    projectStatus: false,
   },
   {
     id: 4,
@@ -186,6 +190,7 @@ export const myPortfolio = [
       "I Built a fully functional, responsive and beautiful Personal Portfolio Website using JavaScript, HTML and CSS, Git and Github, Redux Toolkit and ECMAScript on ReactJs.",
     linkToProject: "https://shahzaib-khan-portfolio.vercel.app",
     stack: "Frontend",
+    projectStatus: false,
   },
   {
     id: 5,
@@ -195,6 +200,7 @@ export const myPortfolio = [
       "The Crypto Price App which gives you the real time Crypto prices. I fetched the Gecko API using advanced JavaScript async await methods and ECMA Script methods.",
     linkToProject: "https://crypto-price-app-shahzaib.vercel.app",
     stack: "Frontend",
+    projectStatus: true,
   },
   {
     id: 6,
@@ -204,6 +210,7 @@ export const myPortfolio = [
       "This is a YouTube Clone website developed same as Youtube. I fetched the YouTube API using advanced JavaScript async await methods and ECMA Script methods.",
     linkToProject: "https://shahzaib-you-tube-clone.vercel.app",
     stack: "Frontend",
+    projectStatus: false,
   },
   {
     id: 7,
@@ -213,6 +220,7 @@ export const myPortfolio = [
       "This is a Google Gemini Clone Website through which you can feel the real Gemini experience. I fetched the Google Gemini API using advanced JavaScript async await methods.",
     linkToProject: "https://shahzaib-gemini-clone.vercel.app",
     stack: "Frontend",
+    projectStatus: false,
   },
   {
     id: 8,
@@ -223,6 +231,7 @@ export const myPortfolio = [
     linkToProject:
       "https://github.com/shahzaibkhan2/DSA-JavaScript-Interview-Solved-Questions.git",
     stack: "DSA JavaScript",
+    projectStatus: false,
   },
   {
     id: 9,
@@ -232,6 +241,7 @@ export const myPortfolio = [
       "I Built a fully functional, responsive and beautiful Website using JavaScript, HTML and Tailwind CSS on React.js. It is a modern website for business team.",
     linkToProject: "https://business-team-website.vercel.app",
     stack: "Frontend",
+    projectStatus: false,
   },
   {
     id: 10,
@@ -242,5 +252,6 @@ export const myPortfolio = [
     linkToProject:
       "https://shahzaibkhan2.github.io/Marketing-Website/index.html",
     stack: "Frontend",
+    projectStatus: false,
   },
 ];

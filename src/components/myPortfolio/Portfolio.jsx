@@ -2,7 +2,14 @@ import { useContext } from "react";
 import { IoGlobeOutline } from "react-icons/io5";
 import { MainContext } from "../../context/MainContext";
 
-const Portfolio = ({ image, title, description, projectLink, stack }) => {
+const Portfolio = ({
+  image,
+  title,
+  description,
+  projectLink,
+  stack,
+  projectStatus,
+}) => {
   const { darkMode } = useContext(MainContext);
   return (
     <article
@@ -39,11 +46,13 @@ const Portfolio = ({ image, title, description, projectLink, stack }) => {
             <IoGlobeOutline size={15} />
             Visit Website
           </a>
-          <div className="flex animate-pulse bg-black items-center rounded-full size-8 sm:size-10">
-            <span className="whitespace-nowrap rounded-full bg-primary-100 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[0.60em] sm:text-[0.75em] font-bold leading-none text-white dark:bg-slate-900 dark:text-primary-500">
-              New
-            </span>
-          </div>
+          {projectStatus && (
+            <div className="flex animate-pulse bg-black items-center rounded-full size-8 sm:size-10">
+              <span className="whitespace-nowrap rounded-full bg-primary-100 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[0.60em] sm:text-[0.75em] font-bold leading-none text-white dark:bg-slate-900 dark:text-primary-500">
+                New
+              </span>
+            </div>
+          )}
         </div>
       </div>
     </article>

@@ -18,6 +18,7 @@ const MyPortfolio = () => {
             projectLink={portfolio.linkToProject}
             image={portfolio.imgPath}
             stack={portfolio.stack}
+            projectStatus={portfolio.projectStatus}
           />
         ))}
       </section>
