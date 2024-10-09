@@ -6,7 +6,7 @@ const ModernAlert = () => {
     <a
       href="https://github.com/shahzaibkhan2/UrbanNest"
       target="_blank"
-      className="fixed top-20 bg-transparent text-center py-4 lg:px-4 cursor-pointer z-50"
+      className="fixed top-20 bg-transparent text-center py-4 lg:px-4 cursor-pointer z-50 text-lg"
     >
       <div
         className={`p-2 items-center ${
@@ -17,7 +17,7 @@ const ModernAlert = () => {
         <span className="flex rounded-full bg-indigo-500 text-white uppercase px-2 py-1 text-xs font-bold mr-3 animate-pulse">
           New
         </span>
-        <span className="font-semibold mr-2 text-left flex-auto">
+        <span className="mr-2 text-left flex-auto">
           Checkout my new real estate website
           <strong className="text-blue-600 underline pl-1">UrbanNest</strong>
         </span>
