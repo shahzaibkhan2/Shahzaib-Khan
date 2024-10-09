@@ -42,10 +42,11 @@ const Contact = () => {
           }`}
         >
           <button
+            disabled={messageSent === "Message sent !"}
             type="submit"
             className="py-3 px-10 bg-gradient-to-r from-[#283c86] to-[#45a247] rounded-full text-white flex gap-2 items-center hover:bg-gradient-to-l transition duration-300 text-lg group"
           >
-            Send Now
+            {messageSent === "Sending" ? "Sending" : "Send Now"}
             {messageSent === "Sending..." ? (
               <img
                 src={assets.loader}

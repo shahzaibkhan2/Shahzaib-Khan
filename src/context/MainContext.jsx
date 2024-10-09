@@ -35,7 +35,7 @@ export const MainContextProvider = ({ children }) => {
       setMessageSent("All fields required");
       return;
     } else if (minLen) {
-      setMessageSent("Length is less than 4 characters");
+      setMessageSent("Text length should be or greater than 4 characters");
       return;
     }
     setMessageSent("Sending...");
