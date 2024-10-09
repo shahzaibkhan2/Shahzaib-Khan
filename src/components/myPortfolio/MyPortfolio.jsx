@@ -1,11 +1,8 @@
-import { useContext } from "react";
 import { myPortfolio } from "../../assets/assets";
-import { MainContext } from "../../context/MainContext";
 import Heading from "../header/Heading";
 import Portfolio from "./Portfolio";
 
 const MyPortfolio = () => {
-  const { darkMode } = useContext(MainContext);
   return (
     <main id="my-portfolio" className="px-[12%] mt-10 mb-24">
       <Heading id="portfolio" />

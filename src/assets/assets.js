@@ -255,3 +255,69 @@ export const myPortfolio = [
     projectStatus: false,
   },
 ];
+
+export const miniMyPortfolio = [
+  {
+    id: 0,
+    imgPath: p11,
+    title: "Instagram Clone Website",
+    description:
+      "This is a full stack Instagram Clone website developed same as the Instagram which includes real time chat, likes, comments, add or remove friends, post, remove post and much more.",
+    linkToProject:
+      "https://github.com/shahzaibkhan2/Full-Stack-Instagram-Clone",
+    stack: "Full Stack",
+    projectStatus: true,
+  },
+  {
+    id: 1,
+    imgPath: p10,
+    title: "LinkedIn Clone Website",
+    description:
+      "This is a full stack LinkedIn Clone website developed same as the LinkedIn which includes real time chat, likes, comments, add or remove friends, post, remove post and much more.",
+    linkToProject: "https://linkedin-clone-mern.vercel.app",
+    stack: "Full Stack",
+    projectStatus: true,
+  },
+  {
+    id: 2,
+    imgPath: p1,
+    title: "Spotify Clone Website",
+    description:
+      "This is a full stack Spotify Clone website developed same as the Spotify in which you listen songs, search, add, remove, an admin panel and much more.",
+    linkToProject:
+      "https://github.com/shahzaibkhan2/Spotify-Clone-Full-Stack-Website.git",
+    stack: "Full Stack",
+    projectStatus: false,
+  },
+  {
+    id: 3,
+    imgPath: p2,
+    title: "Food Delivery Website",
+    description:
+      "This is a full stack food delivery website which enables you to order food, payment, admin panel and with the various food varieties.",
+    linkToProject:
+      "https://github.com/shahzaibkhan2/Full-Stack-Food-Delivery-Website--MERN-.git",
+    stack: "Full Stack",
+    projectStatus: false,
+  },
+  {
+    id: 4,
+    imgPath: p3,
+    title: "Personal Portfolio Website",
+    description:
+      "I Built a fully functional, responsive and beautiful Personal Portfolio Website using JavaScript, HTML and CSS, Git and Github, Redux Toolkit and ECMAScript on ReactJs.",
+    linkToProject: "https://shahzaib-khan-portfolio.vercel.app",
+    stack: "Frontend",
+    projectStatus: false,
+  },
+  {
+    id: 5,
+    imgPath: p4,
+    title: "Crypto Price App",
+    description:
+      "The Crypto Price App which gives you the real time Crypto prices. I fetched the Gecko API using advanced JavaScript async await methods and ECMA Script methods.",
+    linkToProject: "https://crypto-price-app-shahzaib.vercel.app",
+    stack: "Frontend",
+    projectStatus: true,
+  },
+];
