@@ -5,11 +5,10 @@ import MyServices from "./components/myServices/MyServices";
 import MyPortfolio from "./components/myPortfolio/MyPortfolio";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-import { useContext } from "react";
-import { MainContext } from "./context/MainContext";
+import { useMainContext } from "./hooks/useMain/useMainContext";
 
 const App = () => {
-  const { darkMode } = useContext(MainContext);
+  const { darkMode } = useMainContext();
   return (
     <main
       className={`overflow-x-hidden ${

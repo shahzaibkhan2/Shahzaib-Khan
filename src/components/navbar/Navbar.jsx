@@ -4,8 +4,7 @@ import { IoMoonSharp } from "react-icons/io5";
 import { RiMenu4Fill } from "react-icons/ri";
 import { MdLightMode } from "react-icons/md";
 import MobileNavbarMenu from "./MobileNavbarMenu";
-import { useContext } from "react";
-import { MainContext } from "../../context/MainContext";
+import { useMainContext } from "../../hooks/useMain/useMainContext";
 
 const Navbar = () => {
   const {
@@ -17,7 +16,7 @@ const Navbar = () => {
     setBgFixed,
     underline,
     setUnderline,
-  } = useContext(MainContext);
+  } = useMainContext();
 
   return (
     <nav
