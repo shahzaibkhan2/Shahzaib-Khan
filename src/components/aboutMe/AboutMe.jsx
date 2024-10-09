@@ -1,9 +1,8 @@
-import { useContext } from "react";
 import { aboutMe, assets, techs } from "../../assets/assets";
-import { MainContext } from "../../context/MainContext";
+import { useMainContext } from "../../hooks/useMain/useMainContext";
 
 const AboutMe = () => {
-  const { darkMode, slideUp, slideUpHigher } = useContext(MainContext);
+  const { darkMode, slideUp, slideUpHigher } = useMainContext();
   return (
     <main id="about" className={`pt-40 w-full xs-sm:pt-10 px-[12%]`}>
       <h4 className="mb-2 text-sm sm:text-lg text-center">Introduction</h4>

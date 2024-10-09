@@ -1,10 +1,9 @@
-import { useContext } from "react";
 import { assets } from "../../assets/assets";
 import { MdOutlineAttachEmail } from "react-icons/md";
-import { MainContext } from "../../context/MainContext";
+import { useMainContext } from "../../hooks/useMain/useMainContext";
 
 const Footer = () => {
-  const { darkMode } = useContext(MainContext);
+  const { darkMode } = useMainContext();
   return (
     <footer className="mt-20">
       <section className="flex justify-between items-center mx-[10%] flex-col sm:flex-row">

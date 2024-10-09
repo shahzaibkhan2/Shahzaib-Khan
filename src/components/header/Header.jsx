@@ -1,12 +1,11 @@
 import { assets } from "../../assets/assets";
 import { FiDownload } from "react-icons/fi";
-import { useContext } from "react";
-import { MainContext } from "../../context/MainContext";
 import { PiMouseScrollLight } from "react-icons/pi";
 import { FaLinkedin } from "react-icons/fa6";
+import { useMainContext } from "../../hooks/useMain/useMainContext";
 
 const Header = () => {
-  const { darkMode } = useContext(MainContext);
+  const { darkMode } = useMainContext();
   return (
     <header
       id="home"

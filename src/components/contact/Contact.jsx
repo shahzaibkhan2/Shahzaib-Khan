@@ -1,13 +1,12 @@
 import { FaArrowUp, FaGithub, FaFacebookF } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
-import { useContext } from "react";
-import { MainContext } from "../../context/MainContext";
 import Heading from "../header/Heading";
 import { assets } from "../../assets/assets";
+import { useMainContext } from "../../hooks/useMain/useMainContext";
 
 const Contact = () => {
   const { darkMode, slideUpBtn, sendEmail, formRef, messageSent } =
-    useContext(MainContext);
+    useMainContext();
   return (
     <div id="my-contact" className="px-[12%] w-full py-10">
       <Heading id="contact" />

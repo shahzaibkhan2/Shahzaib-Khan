@@ -1,11 +1,10 @@
-import { useContext } from "react";
 import { myServices } from "../../assets/assets";
-import { MainContext } from "../../context/MainContext";
 import { LuMoveRight } from "react-icons/lu";
 import Heading from "../header/Heading";
+import { useMainContext } from "../../hooks/useMain/useMainContext";
 
 const MyServices = () => {
-  const { darkMode, slideDiagonal } = useContext(MainContext);
+  const { darkMode, slideDiagonal } = useMainContext();
   return (
     <main id="service" className="w-full xs-sm:py-10 px-[12%]">
       <Heading id="services" />
