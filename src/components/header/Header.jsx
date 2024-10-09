@@ -3,6 +3,7 @@ import { FiDownload } from "react-icons/fi";
 import { PiMouseScrollLight } from "react-icons/pi";
 import { FaLinkedin } from "react-icons/fa6";
 import { useMainContext } from "../../hooks/useMain/useMainContext";
+import ModernAlert from "../alerts/ModernAlert";
 
 const Header = () => {
   const { darkMode } = useMainContext();
@@ -11,31 +12,7 @@ const Header = () => {
       id="home"
       className="pt-40 xs-sm:pt-0 w-11/12 max-w-3xl mx-auto text-center h-screen mt-7 flex items-center flex-col gap-4 justify-center relative"
     >
-      <a
-        href="https://github.com/shahzaibkhan2/UrbanNest"
-        target="_blank"
-        className="bg-transparent text-center py-4 lg:px-4 cursor-pointer"
-      >
-        <div
-          className="p-2 bg-green-700 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex rounded-full"
-          role="alert"
-        >
-          <span className="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3 animate-pulse">
-            New
-          </span>
-          <span className="font-semibold mr-2 text-left flex-auto">
-            Checkout my new real estate website
-            <strong className="text-blue-400 underline pl-1">UrbanNest</strong>
-          </span>
-          <svg
-            className="fill-current opacity-75 h-4 w-4"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-          >
-            <path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z" />
-          </svg>
-        </div>
-      </a>
+      <ModernAlert />
       <img
         src={assets.me}
         className="w-32 rounded-full animate-slideLeft"
