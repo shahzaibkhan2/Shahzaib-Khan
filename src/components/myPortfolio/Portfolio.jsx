@@ -1,6 +1,5 @@
-import { useContext } from "react";
 import { IoGlobeOutline } from "react-icons/io5";
-import { MainContext } from "../../context/MainContext";
+import { useMainContext } from "../../hooks/useMain/useMainContext";
 
 const Portfolio = ({
   image,
@@ -10,7 +9,7 @@ const Portfolio = ({
   stack,
   projectStatus,
 }) => {
-  const { darkMode } = useContext(MainContext);
+  const { darkMode } = useMainContext();
   return (
     <article
       className={`block rounded-lg bg-white ${
