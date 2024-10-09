@@ -16,7 +16,7 @@ Currently, available on:
 # My Services
 ![My Services](src/assets/p3.jpg)
 # My Projects / Portfolio
-![My Projects](src/assets/p7.jpg)
+![My Projects](src/assets/p8.jpg)
 # Contact Me
 ![Contact Me](src/assets/p5.jpg)
 # Footer
