@@ -1,10 +1,12 @@
-import Header from "./components/header/Header";
-import AboutMe from "./components/aboutMe/AboutMe";
-import Navbar from "./components/navbar/Navbar";
-import MyServices from "./components/myServices/MyServices";
-import MyPortfolio from "./components/myPortfolio/MyPortfolio";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
+import {
+  AboutMe,
+  Contact,
+  Footer,
+  Header,
+  MyPortfolio,
+  MyServices,
+  Navbar,
+} from "./components";
 import { useMainContext } from "./hooks/useMain/useMainContext";
 
 const App = () => {

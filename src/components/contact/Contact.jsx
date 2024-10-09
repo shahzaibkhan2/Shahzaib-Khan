@@ -1,8 +1,8 @@
 import { FaArrowUp, FaGithub, FaFacebookF } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
-import Heading from "../header/Heading";
 import { assets } from "../../assets/assets";
 import { useMainContext } from "../../hooks/useMain/useMainContext";
+import Heading from "../header/Heading";
 
 const Contact = () => {
   const { darkMode, slideUpBtn, sendEmail, formRef, messageSent } =

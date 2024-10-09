@@ -1,8 +1,8 @@
 import { miniMyPortfolio, myPortfolio } from "../../assets/assets";
 import { useMainContext } from "../../hooks/useMain/useMainContext";
-import Heading from "../header/Heading";
-import Portfolio from "./Portfolio";
 import { GoArrowUpRight } from "react-icons/go";
+import Portfolio from "./Portfolio";
+import Heading from "../header/Heading";
 
 const MyPortfolio = () => {
   const { showAll, setShowAll, darkMode } = useMainContext();

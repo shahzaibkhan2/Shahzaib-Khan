@@ -1,0 +1,10 @@
+export { default as AboutMe } from "./aboutMe/AboutMe";
+export { default as Contact } from "./contact/Contact";
+export { default as Footer } from "./footer/Footer";
+export { default as Header } from "./header/Header";
+export { default as Heading } from "./header/Heading";
+export { default as MyPortfolio } from "./myPortfolio/MyPortfolio";
+export { default as Portfolio } from "./myPortfolio/Portfolio";
+export { default as MyServices } from "./myServices/MyServices";
+export { default as MobileNavbar } from "./navbar/MobileNavbarMenu";
+export { default as Navbar } from "./navbar/Navbar";
