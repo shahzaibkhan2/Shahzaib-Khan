@@ -12,12 +12,12 @@ Currently, available on:
 # Home Page
 ![HOME PAGE](src/assets/p1.jpg)
 # About Me 
-![HOME PAGE](src/assets/p2.jpg)
+![About Me](src/assets/p2.jpg)
 # My Services
-![HOME PAGE](src/assets/p3.jpg)
+![My Services](src/assets/p3.jpg)
 # My Projects / Portfolio
-![HOME PAGE](src/assets/p4.jpg)
+![My Projects](src/assets/p7.jpg)
 # Contact Me
-![HOME PAGE](src/assets/p5.jpg)
+![Contact Me](src/assets/p5.jpg)
 # Footer
-![HOME PAGE](src/assets/p6.jpg)
+![Footer](src/assets/p6.jpg)
