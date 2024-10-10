@@ -7,6 +7,7 @@ import {
   MyServices,
   Navbar,
 } from "./components";
+import VortexDemo from "./components/vortex/Vortex";
 import { useMainContext } from "./hooks/useMain/useMainContext";
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <AboutMe />
       <MyServices />
       <MyPortfolio />
+      <VortexDemo />
       <Contact />
       <Footer />
     </main>

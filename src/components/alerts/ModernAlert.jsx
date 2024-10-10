@@ -6,7 +6,7 @@ const ModernAlert = () => {
     <a
       href="https://github.com/shahzaibkhan2/UrbanNest"
       target="_blank"
-      className="fixed top-20 bg-transparent text-center py-4 lg:px-4 cursor-pointer z-50 text-lg"
+      className="fixed top-16 bg-transparent text-center py-4 lg:px-4 cursor-pointer z-50 text-lg"
     >
       <div
         className={`p-2 items-center ${
